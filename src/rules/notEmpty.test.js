@@ -13,5 +13,5 @@ describe('notEmpty', () => {
 
   it('returns false for others types', () => {
     expect(notEmpty(1)).toBe(false);
-  })
+  });
 });
