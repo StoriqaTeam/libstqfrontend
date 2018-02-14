@@ -8,7 +8,7 @@ const validate = (specs, obj) => {
   const errors = extractErrors(result);
   return {
     isValid: isEmpty(errors),
-    errors: errors && !isEmpty(errors) ? errors : undefined,
+    errors: errors && !isEmpty(errors) ? errors : undefined
   };
 };
 
