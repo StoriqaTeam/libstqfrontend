@@ -1,5 +1,5 @@
 import { predicate } from './notEmpty';
 
 export const rules = {
-  notEmpty: predicate
+  notEmpty: predicate,
 };
